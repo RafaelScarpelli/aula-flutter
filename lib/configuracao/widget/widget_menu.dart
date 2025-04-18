@@ -19,13 +19,11 @@ class WidgetMenu extends StatelessWidget {
     return Column(
       children: [
         //jeito de fazer com classe
-        WidgetBotao(
-          rota: Rotas.estado, 
-          rotulo: 'Cadastro de Estado'
-        ),
+        WidgetBotao(rota: Rotas.estado, rotulo: 'Cadastro de Estado'),
         //jeito de fazer com método
-        criarBotao(context, 'Cadastro de Cidade', Rotas.cidade),
+        criarBotao(context, 'Lista de cidade', Rotas.listaCidade),
         criarBotao(context, 'Cadastro de Pessoa', Rotas.pessoa),
+        //criarBotao(context, 'Cadastro de cidade', Rotas.cidade),
       ],
     );
   }

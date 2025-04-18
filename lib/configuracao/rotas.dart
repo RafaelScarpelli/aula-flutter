@@ -5,4 +5,5 @@ class Rotas {
   static const String pessoa = '/pessoa';
   static const String categoria = '/categoria';
   static const String produto = '/produto';
+  static const String listaCidade = '/listaCidade';
 }
